@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exploradores del Saber</title>
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2b6777;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #52ab98;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      padding: 12px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #2b6777;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2b6777;
+    }
+
+    section img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .top-link {
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    .top-link a {
+      color: #2b6777;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #2b6777;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header id="top">
+    <h1>Exploradores del Saber</h1>
+    <p>Una travesía por los temas más fascinantes del conocimiento</p>
+  </header>
+
+  <nav>
+    <a href="#medicina">Medicina</a>
+    <a href="#astronomia">Astronomía</a>
+    <a href="#musica">Música</a>
+    <a href="#matematicas">Matemáticas</a>
+    <a href="#deportes">Deportes</a>
+    <a href="#animales">Animales</a>
+    <a href="#cine">Cine</a>
+    <a href="#cocina">Cocina</a>
+  </nav>
+
+  <section id="medicina">
+    <h2>Medicina</h2>
+    <p>La medicina se dedica a prevenir, diagnosticar y tratar enfermedades. Gracias a ella se han salvado millones de vidas y se han desarrollado vacunas, cirugías, tratamientos y tecnologías médicas avanzadas como la cirugía robótica y la telemedicina.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Caduceus.svg/640px-Caduceus.svg.png" alt="Símbolo de la medicina">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <section id="astronomia">
+    <h2>Astronomía</h2>
+    <p>La astronomía estudia los cuerpos celestes como estrellas, planetas y galaxias. Nos ayuda a entender el origen del universo, los agujeros negros y la posibilidad de vida en otros planetas. Es una de las ciencias más antiguas y sigue maravillándonos.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Milky_Way_Arch.jpg/640px-Milky_Way_Arch.jpg" alt="Vía Láctea">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <section id="musica">
+    <h2>Música</h2>
+    <p>La música es un arte que combina sonidos y silencios. Tiene el poder de cambiar nuestro estado de ánimo, conectar culturas y transmitir emociones sin necesidad de palabras. Hay miles de géneros musicales, desde la clásica hasta el pop, rock o reguetón.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Music_notes.svg/640px-Music_notes.svg.png" alt="Notas musicales">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <section id="matematicas">
+    <h2>Matemáticas</h2>
+    <p>Las matemáticas son el lenguaje del universo. Nos ayudan a resolver problemas, construir edificios, hacer cálculos, crear videojuegos y explorar el espacio. Se dividen en ramas como álgebra, geometría, estadística y cálculo.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Math-symbols.png/640px-Math-symbols.png" alt="Símbolos matemáticos">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <section id="deportes">
+    <h2>Deportes</h2>
+    <p>El deporte promueve la salud física y mental. Fútbol, baloncesto, natación, atletismo y muchos otros fomentan el trabajo en equipo, la disciplina y la superación. Además, los eventos deportivos unen a millones de personas alrededor del mundo.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sports_equipment.svg/640px-Sports_equipment.svg.png" alt="Deportes">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <section id="animales">
+    <h2>Animales</h2>
+    <p>Los animales forman parte esencial del planeta. Desde los más pequeños insectos hasta los majestuosos elefantes, todos cumplen un papel importante en los ecosistemas. Estudiarlos nos ayuda a proteger la biodiversidad y cuidar nuestro entorno.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Elephant_Drawing.svg/640px-Elephant_Drawing.svg.png" alt="Elefante">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <section id="cine">
+    <h2>Cine</h2>
+    <p>El cine es una forma de arte que combina imagen, sonido y narrativa. Nos entretiene, nos hace reflexionar y nos transporta a mundos imaginarios. Películas de todos los géneros han marcado generaciones y se han convertido en íconos culturales.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Film_reel_icon.svg/640px-Film_reel_icon.svg.png" alt="Carrete de cine">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <section id="cocina">
+    <h2>Cocina</h2>
+    <p>La cocina es una mezcla de cultura, arte y ciencia. A través de los sabores conocemos el mundo. Desde la cocina mexicana hasta la japonesa o italiana, cada plato cuenta una historia. Cocinar también fortalece la creatividad y el trabajo en equipo.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chef_hat_icon.svg/640px-Chef_hat_icon.svg.png" alt="Gorro de chef">
+    <div class="top-link"><a href="#top">↑ Ir arriba</a></div>
+  </section>
+
+  <footer>
+    <p>Hecho por Cynthia Luna Gaspar | Exploradores del Saber © 2025</p>
+  </footer>
+
+</body>
+</html>
